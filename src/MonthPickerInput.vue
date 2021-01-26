@@ -27,6 +27,7 @@
       :range="range"
       @input="populateInput"
       @change="$emit('change', $event)"
+      @clear="$emit('clear')"
     />
   </div>
 </template>
