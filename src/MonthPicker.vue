@@ -135,7 +135,7 @@ export default {
   },
   watch: {
     defaultMonth (newVal) {
-      this.currentMonthIndex = newVal
+      this.currentMonthIndex = newVal - 1
     },
     defaultYear (newVal) {
       this.year = newVal
