@@ -27,7 +27,6 @@
       :range="range"
       @input="populateInput"
       @change="$emit('change', $event)"
-      @clear="$emit('clear')"
     />
   </div>
 </template>
@@ -63,7 +62,6 @@ export default {
   emits: [
     'change',
     'input',
-    'clear',
   ],
   data() {
     return {
