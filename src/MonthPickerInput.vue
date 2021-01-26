@@ -62,7 +62,8 @@ export default {
   mixins: [monthPicker],
   emits: [
     'change',
-    'input'
+    'input',
+    'clear',
   ],
   data() {
     return {
